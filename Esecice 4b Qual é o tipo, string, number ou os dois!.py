@@ -1,0 +1,5 @@
+s1 = input("Digite algo ")
+print(type(s1))
+print('São apenas letras? {}.'.format(s1.isalpha()))
+print('São apenas numerais? {}.'.format(s1.isnumeric()))
+print('São letras e numerais? {}'.format(s1.isalnum()))
